@@ -1,0 +1,17 @@
+# Maven
+target/
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Node / Temp
+node_modules/
+
+# Docker
+*.tar
