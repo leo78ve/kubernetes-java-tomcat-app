@@ -7,6 +7,6 @@ spec:
   selector:
     app: java-tomcat
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8181
+      targetPort: 8181
       nodePort: 30081
