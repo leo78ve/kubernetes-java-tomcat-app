@@ -14,7 +14,7 @@ spec:
     spec:
      containers:
         - name: java-tomcat-container
-          image: <+artifacts.primary.image> 
+          image: nginx:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8181
