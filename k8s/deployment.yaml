@@ -14,6 +14,6 @@ spec:
     spec:
      containers:
         - name: java-tomcat-container
-          image: leo78ve/harness2:leotomcat:latest
+          image: leo78ve/harness2:leotomcat
           ports:
             - containerPort: 8181
